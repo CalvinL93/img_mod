@@ -1,4 +1,4 @@
-package Colours
+package Colpurs
 
 import (
 	"fmt"
