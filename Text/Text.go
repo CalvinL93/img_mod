@@ -44,5 +44,5 @@ func Text() {
 	dc.DrawStringAnchored(file.Name(), W/2, H/2, 0.5, 0.5)
 	dc.Stroke()
 
-	dc.SavePNG("image.png")
+	dc.SavePNG("imageText.png")
 }

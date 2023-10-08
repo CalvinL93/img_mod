@@ -47,7 +47,7 @@ func Grayscale() {
 	}
 
 	// Save the grayscale image
-	grayFile, err := os.Create("gray_image.png")
+	grayFile, err := os.Create("imageGray.png")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return

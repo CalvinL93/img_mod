@@ -1,4 +1,4 @@
-package Colpurs
+package Colours
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 )
 
 func Colours() {
-	reader, err := os.Open("image.png")
+	reader, err := os.Open("textImage.png")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 		return
